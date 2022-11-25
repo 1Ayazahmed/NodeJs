@@ -1,0 +1,33 @@
+const bioData = {
+    name: "Ayaz",
+    age: 24,
+    Position: "developer",
+};
+
+// -----Jason Important Methods-------
+// 1 object to Jason
+/*const jsonData = JSON.stringify(bioData);
+console.log(jsonData); //Converted to JSON
+
+// 2 Jason to object
+const objData = JSON.parse(jsonData);
+console.log(objData); //Converted to Object*/
+
+// Task
+// 1: Convert to JASON 
+// 2: ADD into a File
+// 3: Read The File
+// 4: Agin Convert it JASON to Object
+// 5: then console.log
+/*8const fs = require('fs');
+const jasonData = JSON.stringify(bioData); //1 done*/
+/*fs.writeFile("Jason1.json" ,jasonData, (err) =>{  
+console.log("Done..!");   
+});   //2 done*/
+
+/*fs.readFile("Jason1.json" ,"utf-8", (err,data) => { 
+    // console.log(data);
+    const objData = JSON.parse(data);
+    console.log(objData);  //3,4,5 done
+   
+});*/
